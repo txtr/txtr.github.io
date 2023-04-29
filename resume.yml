@@ -1,0 +1,75 @@
+name:
+    first: Shubham Prasad
+    last: Pednekar
+contact:
+    telephone: +1 (716) 815-0972
+    location: Buffalo, NY
+    email: shubhampednekar1999@gmail.com
+links:
+    linkedin: https://www.linkedin.com/in/shubhampednekar/
+    github: https://github.com/txtr
+education:
+    - degree: Master of Computer Science
+      school: University at Buffalo, The State University of New York
+      gpa: 3.7
+      coursework:
+        - Parallel Algorithms
+        - Programming Language Theory
+        - Distributed Systems
+        - Database Management & Query Languages
+        - Analysis of Algorithms
+        - Machine Learning
+        - Computational Investments
+    - degree: Bachelor of Computer Engineering
+      school: University of Mumbai
+      gpa: 3.5
+experience:
+    - role: Software Developer Intern
+      organisation: Geekwork Technologies
+      location: Mumbai, India
+      start-date: January 2020
+      end-date: August 2020
+      responsibilities:
+        - "Implemented a full navigation stack in Robot Operating System with GMapping and Google Cartographer SLAM algorithms to measure effectiveness, cost of implementation and changes in operating costs."
+        - "Preformed Sensor Fusion by merging data from the Wheel Odometer, IMU, and LIDAR to improve robot localization."
+        - "Programmed and tested Python and C++ ROS nodes in Gazebo Robot Simulator for API compatibility with TCS."
+        - "Collected functional and usability requirements from stakeholders and generated reports, timelines and procedures for fulfilling those with a concrete project road map."
+    - role: Website Development Lead
+      organisation: Alumni Committee, Fr. Conceicao Rodrigues College of Engineering
+      location: Mumbai, India
+      start-date: January 2019
+      end-date: December 2019
+      responsibilities:
+        - "Refactored, redesigned and migrated web stack from Drupal to a Jekyll and deployed on GitHub Pages with CD."
+        - "Integrated ReactJS content management system and built an React Native android app to add, remove and modify website data and deploy with GitHub Actions API."
+        - "Set up an email campaign, Alumni Connect portal and Google Analytics service to assess and escalate site engagement."
+acievements:
+    - competition: Smart India Hackathon 2020 
+      standing: Winning Team
+      organiser: [CISCO DevNet]
+      programming-languages: [Python, JavaScript]
+      responsibilities:
+        - "Lead a team of six members to modify CISCO's MindMeld AI platform's ElasticSearch back-end and prepared modules to increased boot-strapping and deployment efficiency by 70% in several use-cases."
+        - "Added user sessions interface and rich media support to Webex Teams and WhatsApp integrations, provided partial data-set training, web-hooks based job scheduling, knowledge-base rollback, and optimized Docker based containerization."
+        - "Developed a feature-rich chat-bot, React Native based Android App and React based multi-role dashboard."
+    - competition: Smart India Hackathon 2019
+      standing: Winning Team
+      organiser: [Air Authority of India]
+      programming-languages: [Python, JavaScript, SQL]
+      responsibilities:
+        - Built a PDF parser, a Keyhole Markup Language file generator and a continuous integration pipeline with a team of four to visualize complex 3D surfaces inside Google Earth Platform and to 2D locate on map inside browser.
+        - Set up a MySQL database store and an Apache web-server for distributing generated files.
+        - Achieved storage space reduction by 90% by converting knowledge-base from PDF files to the SQL database.
+    - competition: Singapore India Hackathon 2019
+      standing: Top 16 Team
+      organiser: [Nanyang University, Govt. of India]
+      programming-languages: [Dart, JavaScript, Python]
+projects:
+    - name: Messenger
+      programming-languages: [Java, SQL]
+      description:
+        - Created an Instant Messaging Platform supporting group text chats with back-end server featuring message authenti-
+        cation using PGP encryption, SQlite database for data store and Java web sockets for communication.
+        - Constructed a JavaFX desktop application with session cookies for authentication and message synchronization.
+extra-curricular:
+    - Contributed to several open-source projects written in Python and Rust.
