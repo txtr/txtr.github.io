@@ -1,292 +1,447 @@
-<html lang="en" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark_tritanopia" data-a11y-animated-images="system" data-a11y-link-underlines="false" data-turbo-loaded="" class="js-focus-visible" data-js-focus-visible=""><head><style type="text/css">.turbo-progress-bar {
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  height: 3px;
-  background: #0076ff;
-  z-index: 2147483647;
-  transition:
-    width 300ms ease-out,
-    opacity 150ms 150ms ease-in;
-  transform: translate3d(0, 0, 0);
-}
-</style>
-    
-  
-  
-  
-  
-  
-  
-
-  
-
-  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/dark_tritanopia-f598f8dd18ae.css"><link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light-8cafbcbd78f4.css"><link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark-31dc14e38457.css"><link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_dimmed-71414d661fe2.css"><link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_high_contrast-ba96c7f1d660.css"><link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/dark_colorblind-7471c22cdb6a.css"><link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_colorblind-80180bed15ed.css"><link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_high_contrast-e89b9cdecb75.css"><link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet" data-href="https://github.githubassets.com/assets/light_tritanopia-77f15e9154df.css">
-  
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-primitives-fb1d51d1ef66.css">
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/primer-8f43f7721dc7.css">
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/global-1c4d2d83ff46.css">
-    <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/github-21dc4e5af19d.css">
-  <link crossorigin="anonymous" media="all" rel="stylesheet" href="https://github.githubassets.com/assets/code-5628011b0728.css">
-
-  
-      
-
-
-  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["failbot_handle_non_errors","fix_react_title","geojson_azure_maps","image_metric_tracking","remove_react_base_styles","turbo_experiment_risky","use_scroll_restoration","sample_network_conn_type"]}</script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-54ecafbcbdbb.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_js-64d590970fa6.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-a4c183-ae93d3fba59c.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-78d5d34f4891.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/environment-c2140938ffde.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-d2119e75298d.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_auto-complete-element-5b3870-9b38c0812424.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-8873b7-5771678648e0.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-bdc901-75dcff5a76ba.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/github-elements-0d61e726fada.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/element-registry-7325b6cb40b9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-f3aee1-fd3c22610e40.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-b1fdd7158cf0.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-4aefce0fc3c8.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-1f4793023fcd.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_scroll-anchoring_dist_scro-52dc4b-e1e33bfc0b7e.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-7a8e2b-f036384374ea.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-126aeb5c22c9.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_onfocus_ts-app_ass-079b43-c46fa3ecf26e.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-050ad6637d58.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-f67f752a4d27.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-f22ac6b94445.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_blob-anchor_ts-app_assets_modules_github_filter-sort_ts-app_assets_-c96432-b9f980134541.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-a77de31b9c67.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/notifications-global-f57687007bfc.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-089adc-2328ba323205.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-39d9db8aea21.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_virtualized-list_es_index_js-node_modules_github_template-parts_lib_index_js-677582870bfd.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-c537341-e6e70d8c1a13.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-0e2b12902d39.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/codespaces-81e7443e36ce.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_remote-form_-01f9fa-d1a4e468bdcd.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_filter--b2311f-939ba5085db0.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/repositories-8b4cdc9b9f22.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-0e9dbe-6435366f0862.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/topic-suggestions-0c4412fcefbb.js"></script>
-<script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/code-menu-7eb31ccaaf48.js"></script>
-  
-
-  
-
-
-
-  
-
-    
-  
-
-
-  
-
-
-    
-
-
-  
-  
-
-  
-  
-
-    
-  
-  
-  
-  
-
-
-
-  
-
-  
-
-
-
-
-  
-
-    
-
-  
-
-    
-    
-      
-      
-    
-    
-    
-      
-      
-      
-
-      
-      
-
-
-        
-
-
-      
-
-        
-
-    
-
-
-  <meta http-equiv="x-pjax-version" content="a55ce6088ab4fcbd5b1a75e8fbcd66bf3577542dfc323c937f578ec030b520bf" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-csp-version" content="d578db686ab50f6f79f53006983acd122464dfeec8531d38fe12d520f9cbf1bc" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-css-version" content="57f7b7fb72b18fb73cd5686f941c6da40542d7b665a876eff927efec6ba40f7e" data-turbo-track="reload">
-  <meta http-equiv="x-pjax-js-version" content="b130e4a678b8d56bf36a4242d79982ddf0b1a324d522f680d636b1c156d86cf8" data-turbo-track="reload">
-
-  
-
-      
-
-  
-
-  
-
-
-
-    
-  
-
-
-  
-
-  
-
-  
-
-  
-  
-  
-
-
-
-
-
-  
-
-  <script type="application/javascript" src="https://github.githubassets.com/assets/react-lib-210c4b5934c3.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_octicons-react_dist_index_esm_js-node_modules_primer_react_lib-es-4edbf7-24a5a54da5c8.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Button_index_js-3833dc86e77f.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_ActionList_index_js-333fed6951c9.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Overlay_Overlay_js-node_modules_primer_react_lib-es-c25505-46d53432d603.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_TextInput_TextInput_js-47fe5c8a888d.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_ActionMenu_js-f0cd24c33676.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_scroll-into-view_js-node_modules_primer_react_-04bb1b-f1945840d2c2.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_FormControl_FormControl_js-98d2df0d2e7c.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_react-router-dom_dist_index_js-4a785319b497.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Heading_Heading_js-node_modules_primer_react_lib-es-20c766-1215399a4f86.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Dialog_ConfirmationDialog_js-7938eca4959b.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Dialog_js-node_modules_primer_react_lib-esm_TabNav_-8321f5-b06d451b5aac.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_TreeView_TreeView_js-d86950fa1004.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Label_Label_js-node_modules_primer_react_lib-esm_Oc-022f4b-7025a30a3ab7.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_AvatarStack_AvatarStack_js-node_modules_primer_reac-bf8f6d-c3777b232bf8.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Avatar_Avatar_js-node_modules_primer_react_lib-esm_-26f7c9-036e3cd3dcd1.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_react-core_create-browser-history_ts-ui_packages_react-core_deferred-registry_ts--ebbb92-a99988e92df8.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_react-core_register-app_ts-c9d112423e9d.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_paths_index_ts-196067b65309.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/ui_packages_ref-selector_RefSelector_tsx-ui_packages_safe-html_SafeHTML_tsx-da57b85351cc.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_settings_rules_helpers_refs_ts-ui_packages_analytics-provider_analytics-pr-6ba38b-66d085cf09ba.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/app_assets_modules_react-code-view_pages_CodeView_tsx-82f39d67490d.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/react-code-view-07fbcbfa6d8a.js"></script><meta charset="utf-8"><link rel="dns-prefetch" href="https://github.githubassets.com"><link rel="dns-prefetch" href="https://avatars.githubusercontent.com"><link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com"><link rel="dns-prefetch" href="https://user-images.githubusercontent.com/"><link rel="preconnect" href="https://github.githubassets.com" crossorigin=""><link rel="preconnect" href="https://avatars.githubusercontent.com"><meta name="optimizely-datafile" content="{&quot;groups&quot;: [], &quot;environmentKey&quot;: &quot;production&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;version&quot;: &quot;4&quot;, &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;anonymizeIP&quot;: true, &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}, {&quot;id&quot;: &quot;21656311196&quot;, &quot;key&quot;: &quot;opened_downgrade_dialog&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20966790249&quot;, &quot;key&quot;: &quot;contact_sales.submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996500333&quot;, &quot;key&quot;: &quot;contact_sales.existing_customer&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996890162&quot;, &quot;key&quot;: &quot;contact_sales.blank_message_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21000470317&quot;, &quot;key&quot;: &quot;contact_sales.personal_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21002790172&quot;, &quot;key&quot;: &quot;contact_sales.blank_phone_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21354412592&quot;, &quot;key&quot;: &quot;click.dismiss_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21366102546&quot;, &quot;key&quot;: &quot;click.dismiss_zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370252505&quot;, &quot;key&quot;: &quot;account_did_downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370840408&quot;, &quot;key&quot;: &quot;click.cta_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21375451068&quot;, &quot;key&quot;: &quot;click.cta_create_new_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21385390948&quot;, &quot;key&quot;: &quot;click.zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21467712175&quot;, &quot;key&quot;: &quot;click.downgrade_keep&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21484112202&quot;, &quot;key&quot;: &quot;click.downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21495292213&quot;, &quot;key&quot;: &quot;click.downgrade_survey_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21508241468&quot;, &quot;key&quot;: &quot;click.downgrade_survey_submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21512030356&quot;, &quot;key&quot;: &quot;click.downgrade_support&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21539090022&quot;, &quot;key&quot;: &quot;click.downgrade_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21543640644&quot;, &quot;key&quot;: &quot;click_fetch_upstream&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21646510300&quot;, &quot;key&quot;: &quot;click.move_your_work&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21656151116&quot;, &quot;key&quot;: &quot;click.add_branch_protection_rule&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21663860599&quot;, &quot;key&quot;: &quot;click.downgrade_dialog_open&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21687860483&quot;, &quot;key&quot;: &quot;click.learn_about_protected_branches&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21689050333&quot;, &quot;key&quot;: &quot;click.dismiss_protect_this_branch&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21864370109&quot;, &quot;key&quot;: &quot;click.sign_in&quot;}], &quot;revision&quot;: &quot;1372&quot;}"><title>txtr.github.io/resume.pdf at main · txtr/txtr.github.io</title><meta name="route-pattern" content="/:user_id/:repository"><meta name="current-catalog-service-hash" content="82c569b93da5c18ed649ebd4c2c79437db4611a6a1373e805a3cb001c64130b7"><link rel="assets" href="https://github.githubassets.com/"><meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY"><meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU"><meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA"><meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc"><meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I"><meta name="octolytics-url" content="https://collector.github.com/github/collect"><meta name="octolytics-actor-id" content="32964043"><meta name="octolytics-actor-login" content="txtr"><meta name="octolytics-actor-hash" content="253e711066aa59e63a61f315ef3ae8f0103368aa3ba6f4e7c397f869378e20a2"><meta name="user-login" content="txtr"><link rel="sudo-modal" href="/sessions/sudo_modal"><meta name="viewport" content="width=device-width"><meta name="description" content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub."><link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub"><link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub"><meta property="fb:app_id" content="1401488693436528"><meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/txtr/txtr.github.io"><meta name="twitter:image:src" content="https://opengraph.githubassets.com/e2890e6547b528ce68945fd88648b4414184f72e4a5fe4f8dcb91ece73d5d558/txtr/txtr.github.io"><meta name="twitter:site" content="@github"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="txtr/txtr.github.io: The Blog."><meta name="twitter:description" content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub."><meta property="og:image" content="https://opengraph.githubassets.com/e2890e6547b528ce68945fd88648b4414184f72e4a5fe4f8dcb91ece73d5d558/txtr/txtr.github.io"><meta property="og:image:alt" content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub."><meta property="og:image:width" content="1200"><meta property="og:image:height" content="600"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="txtr/txtr.github.io: The Blog."><meta property="og:url" content="https://github.com/txtr/txtr.github.io"><meta property="og:description" content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub."><link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/32964043/ws?session=eyJ2IjoiVjMiLCJ1IjozMjk2NDA0MywicyI6MTE3NzIxNjYwNywiYyI6MzYyMDk1OTU5NSwidCI6MTY5MTcwMTg2NH0=--2e7aa82da72beaff69e7895312dc12f46a1106cbf10ceffcde130e4c8c053df2" data-refresh-url="/_alive" data-session-id="c78a1e8c29c9fb377c440d5dd9c54a38f8543092b7f9a22155783477d925bef4"><link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-71e98f781d79.js"><meta name="hostname" content="github.com"><meta name="keyboard-shortcuts-preference" content="all"><meta name="expected-hostname" content="github.com"><meta name="enabled-features" content="FAILBOT_HANDLE_NON_ERRORS,FIX_REACT_TITLE,GEOJSON_AZURE_MAPS,IMAGE_METRIC_TRACKING,REMOVE_REACT_BASE_STYLES,TURBO_EXPERIMENT_RISKY,USE_SCROLL_RESTORATION,SAMPLE_NETWORK_CONN_TYPE"><meta data-hydrostats="publish"><meta name="go-import" content="github.com/txtr/txtr.github.io git https://github.com/txtr/txtr.github.io.git"><meta name="octolytics-dimension-user_id" content="32964043"><meta name="octolytics-dimension-user_login" content="txtr"><meta name="octolytics-dimension-repository_id" content="412075346"><meta name="octolytics-dimension-repository_nwo" content="txtr/txtr.github.io"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="412075346"><meta name="octolytics-dimension-repository_network_root_nwo" content="txtr/txtr.github.io"><meta name="turbo-body-classes" content="logged-in env-production page-responsive"><meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats"><meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors"><meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors"><link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000"><link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon-dark.png"><link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon-dark.svg"><meta name="theme-color" content="#1e2327"><meta name="color-scheme" content="dark light"><link rel="manifest" href="/manifest.json" crossorigin="use-credentials"><style data-styled="active" data-styled-version="5.3.6"></style><meta name="selected-link" value="repo_source" data-turbo-transient=""><meta name="analytics-location" content="/<user-name>/<repo-name>/blob/show" data-turbo-transient=""><meta name="request-id" content="8B8D:518B:8FB8A9:CE09A3:64D55269" data-turbo-transient=""><meta name="html-safe-nonce" content="d5cfdbebc816c85e6b1422d6fd3ab1712d18848379867dbfa8d758c2c33ae236" data-turbo-transient=""><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS90eHRyL3R4dHIuZ2l0aHViLmlvIiwicmVxdWVzdF9pZCI6IjhCOEQ6NTE4Qjo4RkI4QTk6Q0UwOUEzOjY0RDU1MjY5IiwidmlzaXRvcl9pZCI6IjU2MDI0MTY5OTA2MDAwODA5NCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-turbo-transient=""><meta name="visitor-hmac" content="cbe9b463383fb425bc6d268becc8593dc422d5b9d5584767455d35ddfda4cbd0" data-turbo-transient=""><meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree" data-turbo-transient=""><meta name="hovercard-subject-tag" content="repository:412075346" data-turbo-transient=""><meta name="turbo-cache-control" content="no-preview" data-turbo-transient=""><meta name="turbo-cache-control" content="no-cache" data-turbo-transient=""><style id="__web-inspector-hide-shortcut-style__">
-.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
-{
-    visibility: hidden !important;
-}
-</style></head>
-
-  <body class="logged-in env-production page-responsive intent-mouse" style="word-wrap: break-word;">
-    <div data-turbo-body="" class="logged-in env-production page-responsive" style="word-wrap: break-word;">
-      
-
-
-    
-
-  
-
-
-
-
-
-
-
-
-    
-
-
-    
-    
-  
-
-
-
-
-
-
-      
-
-
-
-
-  <div class="application-main " data-commit-hovercards-enabled="" data-discussion-hovercards-enabled="" data-issue-and-pr-hovercards-enabled="">
-        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
-    <main id="js-repo-pjax-container">
-      
-  
-
-
-
-
-
-
-    
-
-
-
-
-
-
-      
-
-  
-
-
-
-
-<turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class="" src="https://github.com/txtr/txtr.github.io/blob/main/resume.pdf" complete="">
-
-<react-app app-name="react-code-view" initial-path="/txtr/txtr.github.io/blob/main/resume.pdf" style="min-height: calc(100vh - 62px)" data-ssr="false" data-lazy="false" data-alternate="false" data-catalyst="" class="loaded">
-  
-  
-  <div data-target="react-app.reactRoot">    <div class="Box-sc-g0xbh4-0"><div class="Box-sc-g0xbh4-0 fSWWem" style="--sticky-pane-height: calc(100vh - (max(0px, 0px)));"><div class="Box-sc-g0xbh4-0 kPPmzM"><div class="Box-sc-g0xbh4-0 cIAPDV"><main class="Box-sc-g0xbh4-0 emFMJu"><div class="Box-sc-g0xbh4-0 hlUAHL"><div data-selector="repos-split-pane-content" tabindex="0" class="Box-sc-g0xbh4-0 iStsmI"><div class="Box-sc-g0xbh4-0 fwKaNR">   <div class="Box-sc-g0xbh4-0 izfgQu"><div class="Box-sc-g0xbh4-0 cQgThc"><div class="Box-sc-g0xbh4-0 gBKNLX react-blob-view-header-sticky" id="repos-sticky-header"><div class="Box-sc-g0xbh4-0 ePiodO"><div class="Box-sc-g0xbh4-0 hPsWZB"><div class="Box-sc-g0xbh4-0 gJICKO"><div class="Box-sc-g0xbh4-0 iZJewz"><nav data-testid="breadcrumbs" aria-labelledby="sticky-breadcrumb-heading" id="sticky-breadcrumb" class="Box-sc-g0xbh4-0 kzRgrI"><h2 class="Heading__StyledHeading-sc-1c1dgg0-0 cgQnMS sr-only" data-testid="screen-reader-heading" id="sticky-breadcrumb-heading">Breadcrumbs</h2><ol class="Box-sc-g0xbh4-0 cmAPIB"><li class="Box-sc-g0xbh4-0 jwXCBK"><a sx="[object Object]" data-testid="breadcrumbs-repo-link" class="Link__StyledLink-sc-14289xe-0 kGYPAT" href="/txtr/txtr.github.io/tree/main">txtr.github.io</a></li></ol></nav><div data-testid="breadcrumbs-filename" class="Box-sc-g0xbh4-0 jwXCBK"><span aria-hidden="true" class="Text-sc-17v1xeu-0 kelpbL">/</span><h1 tabindex="-1" id="sticky-file-name-id" class="Heading__StyledHeading-sc-1c1dgg0-0 jAEDJk">resume.pdf</h1></div></div><button type="button" data-size="small" class="types__StyledButton-sc-ws60qy-0 bpyMMx"><span data-component="buttonContent" class="Box-sc-g0xbh4-0 kkrdEu"><span data-component="leadingVisual" class="Box-sc-g0xbh4-0 trpoQ"><svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-arrow-up" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M3.47 7.78a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018L9 4.81v7.44a.75.75 0 0 1-1.5 0V4.81L4.53 7.78a.75.75 0 0 1-1.06 0Z"></path></svg></span><span data-component="text">Top</span></span></button></div></div><div class="Box-sc-g0xbh4-0 bOUZZs"><h2 class="Heading__StyledHeading-sc-1c1dgg0-0 cgQnMS sr-only" data-testid="screen-reader-heading">File metadata and controls</h2><div class="Box-sc-g0xbh4-0 bfkNRF"><div class="Box-sc-g0xbh4-0 fleZSW react-code-size-details-in-header"><div class="Box-sc-g0xbh4-0 VKXbE text-mono"><span class="Text-sc-17v1xeu-0 gPDEWA">101 KB</span></div></div></div><div class="Box-sc-g0xbh4-0 iBylDf"><button hidden="" data-testid="" data-hotkey="Control+Shift+." data-hotkey-scope="read-only-cursor-text-area"></button><button hidden="" data-hotkey="Control+Shift+."></button><button hidden="" data-testid="" data-hotkey="Control+Shift+," data-hotkey-scope="read-only-cursor-text-area"></button><button hidden="" data-hotkey="Control+Shift+,"></button><div class="Box-sc-g0xbh4-0 kSGBPx react-blob-header-edit-and-raw-actions"><span role="tooltip" aria-label="Download raw file" class="Tooltip__TooltipBase-sc-uha8qm-0 fCnxTL tooltipped-n"><button data-component="IconButton" aria-label="Download raw content" data-testid="download-raw-button" data-hotkey="Control+Shift+s" data-size="small" data-no-visuals="true" class="types__StyledButton-sc-ws60qy-0 iROAUy"><svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-download" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg></button></span><button hidden="" data-testid="download-raw-button-shortcut" data-hotkey="Control+Shift+s" data-hotkey-scope="read-only-cursor-text-area"></button></div><div class="Box-sc-g0xbh4-0 react-blob-header-edit-and-raw-actions-combined"><button data-component="IconButton" aria-label="Edit and raw actions" class="types__StyledButton-sc-ws60qy-0 dBUMnK js-blob-dropdown-click" title="More file actions" data-testid="more-file-actions-button" id=":r4:" aria-haspopup="true" tabindex="0" data-size="small" data-no-visuals="true"><svg aria-hidden="true" focusable="false" role="img" class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" width="16" height="16" fill="currentColor" style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;"><path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path></svg></button></div></div></div></div><div class="Box-sc-g0xbh4-0"></div></div><div class="Box-sc-g0xbh4-0 etfROT"><section aria-labelledby="file-name-id" class="Box-sc-g0xbh4-0 cJzElx"><div class="Box-sc-g0xbh4-0 civZtx"><div data-hpc="true" data-host="https://viewscreen.githubusercontent.com" data-type="pdf" class="Box-sc-g0xbh4-0 cRYnfF" style="height: 1325px;"><iframe src="https://viewscreen.githubusercontent.com/view/pdf?browser=chrome&amp;bypass_fastly=true&amp;color_mode=dark&amp;commit=5f8e62a3b3826fd56a7e4b666c3ed06156999de3&amp;device=unknown_device&amp;docs_host=https%3A%2F%2Fdocs.github.com&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f747874722f747874722e6769746875622e696f2f356638653632613362333832366664353661376534623636366333656430363135363939396465332f726573756d652e706466&amp;logged_in=true&amp;nwo=txtr%2Ftxtr.github.io&amp;path=resume.pdf&amp;platform=windows&amp;repository_id=412075346&amp;repository_type=Repository&amp;version=115#48bb678b-8f43-46af-85f8-9b1c362b82ad" sandbox="allow-scripts allow-same-origin allow-top-navigation" name="48bb678b-8f43-46af-85f8-9b1c362b82ad" title="File display" class="Box-sc-g0xbh4-0 kRMcOk">Viewer requires iframe.</iframe></div></div></section></div><div class="Popover js-hovercard-content position-absolute" tabindex="0" style="display: none; outline: none;"><div class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large" style="width: 360px;"></div></div></div></div>   </div></div></div></main></div></div></div></div>    </div>
-</react-app>
-</turbo-frame>
-
-
-    </main>
-  </div>
-
-  </div>
-
-          
-
-
-
-
-  
-
-    
-
-    
-
-    
-
-
-
-    
-
-
+<html lang="en" data-color-mode="dark" data-light-theme="light" data-dark-theme="dark_tritanopia"
+  data-a11y-animated-images="system" data-a11y-link-underlines="false" data-turbo-loaded="" class="js-focus-visible"
+  data-js-focus-visible="">
+<head>
+  <style type="text/css">
+    .turbo-progress-bar {
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 0;
+      height: 3px;
+      background: #0076ff;
+      z-index: 2147483647;
+      transition:
+        width 300ms ease-out,
+        opacity 150ms 150ms ease-in;
+      transform: translate3d(0, 0, 0);
+    }
+  </style>
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/dark_tritanopia-f598f8dd18ae.css">
+  <link data-color-theme="light" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light-8cafbcbd78f4.css">
+  <link data-color-theme="dark" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark-31dc14e38457.css">
+  <link data-color-theme="dark_dimmed" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_dimmed-71414d661fe2.css">
+  <link data-color-theme="dark_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_high_contrast-ba96c7f1d660.css">
+  <link data-color-theme="dark_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/dark_colorblind-7471c22cdb6a.css">
+  <link data-color-theme="light_colorblind" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_colorblind-80180bed15ed.css">
+  <link data-color-theme="light_high_contrast" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_high_contrast-e89b9cdecb75.css">
+  <link data-color-theme="light_tritanopia" crossorigin="anonymous" media="all" rel="stylesheet"
+    data-href="https://github.githubassets.com/assets/light_tritanopia-77f15e9154df.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/primer-primitives-fb1d51d1ef66.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/primer-8f43f7721dc7.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/global-1c4d2d83ff46.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/github-21dc4e5af19d.css">
+  <link crossorigin="anonymous" media="all" rel="stylesheet"
+    href="https://github.githubassets.com/assets/code-5628011b0728.css">
+  <script type="application/json"
+    id="client-env">{"locale":"en","featureFlags":["failbot_handle_non_errors","fix_react_title","geojson_azure_maps","image_metric_tracking","remove_react_base_styles","turbo_experiment_risky","use_scroll_restoration","sample_network_conn_type"]}</script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/wp-runtime-54ecafbcbdbb.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_js-64d590970fa6.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-a4c183-ae93d3fba59c.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/ui_packages_soft-nav_soft-nav_ts-78d5d34f4891.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/environment-c2140938ffde.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-2646a2c533e3.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_focus-zone_js-d55308df5023.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-99e288659d4f.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_markdown-toolbar-element_dist_index_js-d2119e75298d.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_auto-complete-element-5b3870-9b38c0812424.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-8873b7-5771678648e0.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-bdc901-75dcff5a76ba.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/github-elements-0d61e726fada.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/element-registry-7325b6cb40b9.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-9d9fe1859ce5.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_hydro-analytics-client_dist_analytics-client_js-node_modules_gith-f3aee1-fd3c22610e40.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-b1fdd7158cf0.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_alive-client_dist-bf5aa2-4aefce0fc3c8.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-1f4793023fcd.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_scroll-anchoring_dist_scro-52dc4b-e1e33bfc0b7e.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_color-convert_index_js-35b3ae68c408.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_github_quote-select-7a8e2b-f036384374ea.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_updatable-content_ts-126aeb5c22c9.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_onfocus_ts-app_ass-079b43-c46fa3ecf26e.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-050ad6637d58.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-2e2258-f67f752a4d27.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-f22ac6b94445.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_blob-anchor_ts-app_assets_modules_github_filter-sort_ts-app_assets_-c96432-b9f980134541.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/behaviors-a77de31b9c67.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-fe0b8ccc90a5.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/notifications-global-f57687007bfc.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_optimizely_optimizely-sdk_dist_optimizely_browser_es_min_js-node_modules-089adc-2328ba323205.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/optimizely-39d9db8aea21.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_virtualized-list_es_index_js-node_modules_github_template-parts_lib_index_js-677582870bfd.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-c537341-e6e70d8c1a13.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-0e2b12902d39.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/codespaces-81e7443e36ce.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_remote-form_-01f9fa-d1a4e468bdcd.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_filter--b2311f-939ba5085db0.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/repositories-8b4cdc9b9f22.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-0e9dbe-6435366f0862.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/topic-suggestions-0c4412fcefbb.js"></script>
+  <script crossorigin="anonymous" defer="defer" type="application/javascript"
+    src="https://github.githubassets.com/assets/code-menu-7eb31ccaaf48.js"></script>
+  <meta http-equiv="x-pjax-version" content="a55ce6088ab4fcbd5b1a75e8fbcd66bf3577542dfc323c937f578ec030b520bf"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-csp-version" content="d578db686ab50f6f79f53006983acd122464dfeec8531d38fe12d520f9cbf1bc"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-css-version" content="57f7b7fb72b18fb73cd5686f941c6da40542d7b665a876eff927efec6ba40f7e"
+    data-turbo-track="reload">
+  <meta http-equiv="x-pjax-js-version" content="b130e4a678b8d56bf36a4242d79982ddf0b1a324d522f680d636b1c156d86cf8"
+    data-turbo-track="reload">
+  <script type="application/javascript" src="https://github.githubassets.com/assets/react-lib-210c4b5934c3.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_octicons-react_dist_index_esm_js-node_modules_primer_react_lib-es-4edbf7-24a5a54da5c8.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Button_index_js-3833dc86e77f.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_ActionList_index_js-333fed6951c9.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Overlay_Overlay_js-node_modules_primer_react_lib-es-c25505-46d53432d603.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_TextInput_TextInput_js-47fe5c8a888d.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_ActionMenu_js-f0cd24c33676.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_scroll-into-view_js-node_modules_primer_react_-04bb1b-f1945840d2c2.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_FormControl_FormControl_js-98d2df0d2e7c.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_react-router-dom_dist_index_js-4a785319b497.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Heading_Heading_js-node_modules_primer_react_lib-es-20c766-1215399a4f86.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Dialog_ConfirmationDialog_js-7938eca4959b.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Dialog_js-node_modules_primer_react_lib-esm_TabNav_-8321f5-b06d451b5aac.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_TreeView_TreeView_js-d86950fa1004.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Label_Label_js-node_modules_primer_react_lib-esm_Oc-022f4b-7025a30a3ab7.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_AvatarStack_AvatarStack_js-node_modules_primer_reac-bf8f6d-c3777b232bf8.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/vendors-node_modules_primer_react_lib-esm_Avatar_Avatar_js-node_modules_primer_react_lib-esm_-26f7c9-036e3cd3dcd1.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/ui_packages_react-core_create-browser-history_ts-ui_packages_react-core_deferred-registry_ts--ebbb92-a99988e92df8.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/ui_packages_react-core_register-app_ts-c9d112423e9d.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/ui_packages_paths_index_ts-196067b65309.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/ui_packages_ref-selector_RefSelector_tsx-ui_packages_safe-html_SafeHTML_tsx-da57b85351cc.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_settings_rules_helpers_refs_ts-ui_packages_analytics-provider_analytics-pr-6ba38b-66d085cf09ba.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/app_assets_modules_react-code-view_pages_CodeView_tsx-82f39d67490d.js"></script>
+  <script type="application/javascript"
+    src="https://github.githubassets.com/assets/react-code-view-07fbcbfa6d8a.js"></script>
+  <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+  <link rel="preconnect" href="https://github.githubassets.com" crossorigin="">
+  <link rel="preconnect" href="https://avatars.githubusercontent.com">
+  <meta name="optimizely-datafile"
+    content="{&quot;groups&quot;: [], &quot;environmentKey&quot;: &quot;production&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;version&quot;: &quot;4&quot;, &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;anonymizeIP&quot;: true, &quot;sdkKey&quot;: &quot;WTc6awnGuYDdG98CYRban&quot;, &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}, {&quot;id&quot;: &quot;20175462351&quot;, &quot;key&quot;: &quot;requestedCurrency&quot;}, {&quot;id&quot;: &quot;20785470195&quot;, &quot;key&quot;: &quot;country_code&quot;}, {&quot;id&quot;: &quot;21656311196&quot;, &quot;key&quot;: &quot;opened_downgrade_dialog&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19730198868&quot;, &quot;key&quot;: &quot;submit.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19820830627&quot;, &quot;key&quot;: &quot;click.homepage_signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19988571001&quot;, &quot;key&quot;: &quot;click.create_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20036538294&quot;, &quot;key&quot;: &quot;click.create_organization_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20040653299&quot;, &quot;key&quot;: &quot;click.input_enterprise_trial_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20062030003&quot;, &quot;key&quot;: &quot;click.continue_with_team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20068947153&quot;, &quot;key&quot;: &quot;click.create_organization_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20086636658&quot;, &quot;key&quot;: &quot;click.signup_continue.username&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20091648988&quot;, &quot;key&quot;: &quot;click.signup_continue.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20103637615&quot;, &quot;key&quot;: &quot;click.signup_continue.email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20111574253&quot;, &quot;key&quot;: &quot;click.signup_continue.password&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20120044111&quot;, &quot;key&quot;: &quot;view.pricing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20152062109&quot;, &quot;key&quot;: &quot;submit.create_account&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20165800992&quot;, &quot;key&quot;: &quot;submit.upgrade_payment_form&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20171520319&quot;, &quot;key&quot;: &quot;submit.create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20222645674&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.discuss_your_needs&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20227443657&quot;, &quot;key&quot;: &quot;submit.verify_primary_user_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20234607160&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.try_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20238175784&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.team&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20239847212&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.continue_free&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20251097193&quot;, &quot;key&quot;: &quot;recommended_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20438619534&quot;, &quot;key&quot;: &quot;click.pricing_calculator.1_member&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20456699683&quot;, &quot;key&quot;: &quot;click.pricing_calculator.15_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20467868331&quot;, &quot;key&quot;: &quot;click.pricing_calculator.10_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476267432&quot;, &quot;key&quot;: &quot;click.trial_days_remaining&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20476357660&quot;, &quot;key&quot;: &quot;click.discover_feature&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20479287901&quot;, &quot;key&quot;: &quot;click.pricing_calculator.custom_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20481107083&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_teacher_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20483089392&quot;, &quot;key&quot;: &quot;click.pricing_calculator.5_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484283944&quot;, &quot;key&quot;: &quot;click.onboarding_task&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20484996281&quot;, &quot;key&quot;: &quot;click.recommended_plan_in_signup.apply_student_benefits&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20486713726&quot;, &quot;key&quot;: &quot;click.onboarding_task_breadcrumb&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20490791319&quot;, &quot;key&quot;: &quot;click.upgrade_to_enterprise&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20491786766&quot;, &quot;key&quot;: &quot;click.talk_to_us&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20494144087&quot;, &quot;key&quot;: &quot;click.dismiss_enterprise_trial&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20499722759&quot;, &quot;key&quot;: &quot;completed_all_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20500710104&quot;, &quot;key&quot;: &quot;completed_onboarding_tasks&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20513160672&quot;, &quot;key&quot;: &quot;click.read_doc&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20516196762&quot;, &quot;key&quot;: &quot;actions_enabled&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20518980986&quot;, &quot;key&quot;: &quot;click.dismiss_trial_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20535446721&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.dismiss_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20557002247&quot;, &quot;key&quot;: &quot;click.issue_actions_prompt.setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20595070227&quot;, &quot;key&quot;: &quot;click.pull_request_setup_workflow&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20626600314&quot;, &quot;key&quot;: &quot;click.seats_input&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20642310305&quot;, &quot;key&quot;: &quot;click.decrease_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20662990045&quot;, &quot;key&quot;: &quot;click.increase_seats_number&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20679620969&quot;, &quot;key&quot;: &quot;click.public_product_roadmap&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20761240940&quot;, &quot;key&quot;: &quot;click.dismiss_survey_banner&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20767210721&quot;, &quot;key&quot;: &quot;click.take_survey&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20795281201&quot;, &quot;key&quot;: &quot;click.archive_list&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20966790249&quot;, &quot;key&quot;: &quot;contact_sales.submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996500333&quot;, &quot;key&quot;: &quot;contact_sales.existing_customer&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;20996890162&quot;, &quot;key&quot;: &quot;contact_sales.blank_message_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21000470317&quot;, &quot;key&quot;: &quot;contact_sales.personal_email&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21002790172&quot;, &quot;key&quot;: &quot;contact_sales.blank_phone_field&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21354412592&quot;, &quot;key&quot;: &quot;click.dismiss_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21366102546&quot;, &quot;key&quot;: &quot;click.dismiss_zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370252505&quot;, &quot;key&quot;: &quot;account_did_downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21370840408&quot;, &quot;key&quot;: &quot;click.cta_create_readme&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21375451068&quot;, &quot;key&quot;: &quot;click.cta_create_new_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21385390948&quot;, &quot;key&quot;: &quot;click.zero_user_content&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21467712175&quot;, &quot;key&quot;: &quot;click.downgrade_keep&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21484112202&quot;, &quot;key&quot;: &quot;click.downgrade&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21495292213&quot;, &quot;key&quot;: &quot;click.downgrade_survey_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21508241468&quot;, &quot;key&quot;: &quot;click.downgrade_survey_submit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21512030356&quot;, &quot;key&quot;: &quot;click.downgrade_support&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21539090022&quot;, &quot;key&quot;: &quot;click.downgrade_exit&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21543640644&quot;, &quot;key&quot;: &quot;click_fetch_upstream&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21646510300&quot;, &quot;key&quot;: &quot;click.move_your_work&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21656151116&quot;, &quot;key&quot;: &quot;click.add_branch_protection_rule&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21663860599&quot;, &quot;key&quot;: &quot;click.downgrade_dialog_open&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21687860483&quot;, &quot;key&quot;: &quot;click.learn_about_protected_branches&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21689050333&quot;, &quot;key&quot;: &quot;click.dismiss_protect_this_branch&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;21864370109&quot;, &quot;key&quot;: &quot;click.sign_in&quot;}], &quot;revision&quot;: &quot;1372&quot;}">
+  <title>txtr.github.io/resume.pdf at main · txtr/txtr.github.io</title>
+  <meta name="route-pattern" content="/:user_id/:repository">
+  <meta name="current-catalog-service-hash" content="82c569b93da5c18ed649ebd4c2c79437db4611a6a1373e805a3cb001c64130b7">
+  <link rel="assets" href="https://github.githubassets.com/">
+  <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+  <meta name="google-site-verification" content="Apib7-x98H0j5cPqHWwSMm6dNU4GmODRoqxLiDzdx9I">
+  <meta name="octolytics-url" content="https://collector.github.com/github/collect">
+  <meta name="octolytics-actor-id" content="32964043">
+  <meta name="octolytics-actor-login" content="txtr">
+  <meta name="octolytics-actor-hash" content="253e711066aa59e63a61f315ef3ae8f0103368aa3ba6f4e7c397f869378e20a2">
+  <meta name="user-login" content="txtr">
+  <link rel="sudo-modal" href="/sessions/sudo_modal">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description"
+    content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub.">
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905, app-argument=https://github.com/txtr/txtr.github.io">
+  <meta name="twitter:image:src"
+    content="https://opengraph.githubassets.com/e2890e6547b528ce68945fd88648b4414184f72e4a5fe4f8dcb91ece73d5d558/txtr/txtr.github.io">
+  <meta name="twitter:site" content="@github">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="txtr/txtr.github.io: The Blog.">
+  <meta name="twitter:description"
+    content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub.">
+  <meta property="og:image"
+    content="https://opengraph.githubassets.com/e2890e6547b528ce68945fd88648b4414184f72e4a5fe4f8dcb91ece73d5d558/txtr/txtr.github.io">
+  <meta property="og:image:alt"
+    content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub.">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="600">
+  <meta property="og:site_name" content="GitHub">
+  <meta property="og:type" content="object">
+  <meta property="og:title" content="txtr/txtr.github.io: The Blog.">
+  <meta property="og:url" content="https://github.com/txtr/txtr.github.io">
+  <meta property="og:description"
+    content="The Blog. Contribute to txtr/txtr.github.io development by creating an account on GitHub.">
+  <link rel="shared-web-socket"
+    href="wss://alive.github.com/_sockets/u/32964043/ws?session=eyJ2IjoiVjMiLCJ1IjozMjk2NDA0MywicyI6MTE3NzIxNjYwNywiYyI6MzYyMDk1OTU5NSwidCI6MTY5MTcwMTg2NH0=--2e7aa82da72beaff69e7895312dc12f46a1106cbf10ceffcde130e4c8c053df2"
+    data-refresh-url="/_alive" data-session-id="c78a1e8c29c9fb377c440d5dd9c54a38f8543092b7f9a22155783477d925bef4">
+  <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-71e98f781d79.js">
+  <meta name="hostname" content="github.com">
+  <meta name="keyboard-shortcuts-preference" content="all">
+  <meta name="expected-hostname" content="github.com">
+  <meta name="enabled-features"
+    content="FAILBOT_HANDLE_NON_ERRORS,FIX_REACT_TITLE,GEOJSON_AZURE_MAPS,IMAGE_METRIC_TRACKING,REMOVE_REACT_BASE_STYLES,TURBO_EXPERIMENT_RISKY,USE_SCROLL_RESTORATION,SAMPLE_NETWORK_CONN_TYPE">
+  <meta data-hydrostats="publish">
+  <meta name="go-import" content="github.com/txtr/txtr.github.io git https://github.com/txtr/txtr.github.io.git">
+  <meta name="octolytics-dimension-user_id" content="32964043">
+  <meta name="octolytics-dimension-user_login" content="txtr">
+  <meta name="octolytics-dimension-repository_id" content="412075346">
+  <meta name="octolytics-dimension-repository_nwo" content="txtr/txtr.github.io">
+  <meta name="octolytics-dimension-repository_public" content="true">
+  <meta name="octolytics-dimension-repository_is_fork" content="false">
+  <meta name="octolytics-dimension-repository_network_root_id" content="412075346">
+  <meta name="octolytics-dimension-repository_network_root_nwo" content="txtr/txtr.github.io">
+  <meta name="turbo-body-classes" content="logged-in env-production page-responsive">
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+  <meta name="browser-optimizely-client-errors-url"
+    content="https://api.github.com/_private/browser/optimizely_client/errors">
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png"
+    href="https://github.githubassets.com/favicons/favicon-dark.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml"
+    href="https://github.githubassets.com/favicons/favicon-dark.svg">
+  <meta name="theme-color" content="#1e2327">
+  <meta name="color-scheme" content="dark light">
+  <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+  <style data-styled="active" data-styled-version="5.3.6"></style>
+  <meta name="selected-link" value="repo_source" data-turbo-transient="">
+  <meta name="analytics-location" content="/<user-name>/<repo-name>/blob/show" data-turbo-transient="">
+  <meta name="request-id" content="8B8D:518B:8FB8A9:CE09A3:64D55269" data-turbo-transient="">
+  <meta name="html-safe-nonce" content="d5cfdbebc816c85e6b1422d6fd3ab1712d18848379867dbfa8d758c2c33ae236"
+    data-turbo-transient="">
+  <meta name="visitor-payload"
+    content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS90eHRyL3R4dHIuZ2l0aHViLmlvIiwicmVxdWVzdF9pZCI6IjhCOEQ6NTE4Qjo4RkI4QTk6Q0UwOUEzOjY0RDU1MjY5IiwidmlzaXRvcl9pZCI6IjU2MDI0MTY5OTA2MDAwODA5NCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9"
+    data-turbo-transient="">
+  <meta name="visitor-hmac" content="cbe9b463383fb425bc6d268becc8593dc422d5b9d5584767455d35ddfda4cbd0"
+    data-turbo-transient="">
+  <meta name="github-keyboard-shortcuts" content="repository,source-code,file-tree" data-turbo-transient="">
+  <meta name="hovercard-subject-tag" content="repository:412075346" data-turbo-transient="">
+  <meta name="turbo-cache-control" content="no-preview" data-turbo-transient="">
+  <meta name="turbo-cache-control" content="no-cache" data-turbo-transient="">
+  <style id="__web-inspector-hide-shortcut-style__">
+    .__web-inspector-hide-shortcut__,
+    .__web-inspector-hide-shortcut__ *,
+    .__web-inspector-hidebefore-shortcut__::before,
+    .__web-inspector-hideafter-shortcut__::after {
+      visibility: hidden !important;
+    }
+  </style>
+</head>
+<body class="logged-in env-production page-responsive intent-mouse" style="word-wrap: break-word;">
+  <div data-turbo-body="" class="logged-in env-production page-responsive" style="word-wrap: break-word;">
+    <div class="application-main " data-commit-hovercards-enabled="" data-discussion-hovercards-enabled=""
+      data-issue-and-pr-hovercards-enabled="">
+      <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+        <main id="js-repo-pjax-container">
+          <turbo-frame id="repo-content-turbo-frame" target="_top" data-turbo-action="advance" class=""
+            src="https://github.com/txtr/txtr.github.io/blob/main/resume.pdf" complete="">
+            <react-app app-name="react-code-view" initial-path="/txtr/txtr.github.io/blob/main/resume.pdf"
+              style="min-height: calc(100vh - 62px)" data-ssr="false" data-lazy="false" data-alternate="false"
+              data-catalyst="" class="loaded">
+              <div data-target="react-app.reactRoot">
+                <div class="Box-sc-g0xbh4-0">
+                  <div class="Box-sc-g0xbh4-0 fSWWem" style="--sticky-pane-height: calc(100vh - (max(0px, 0px)));">
+                    <div class="Box-sc-g0xbh4-0 kPPmzM">
+                      <div class="Box-sc-g0xbh4-0 cIAPDV">
+                        <main class="Box-sc-g0xbh4-0 emFMJu">
+                          <div class="Box-sc-g0xbh4-0 hlUAHL">
+                            <div data-selector="repos-split-pane-content" tabindex="0" class="Box-sc-g0xbh4-0 iStsmI">
+                              <div class="Box-sc-g0xbh4-0 fwKaNR">
+                                <div class="Box-sc-g0xbh4-0 izfgQu">
+                                  <div class="Box-sc-g0xbh4-0 cQgThc">
+                                    <div class="Box-sc-g0xbh4-0 gBKNLX react-blob-view-header-sticky"
+                                      id="repos-sticky-header">
+                                      <div class="Box-sc-g0xbh4-0 ePiodO">
+                                        <div class="Box-sc-g0xbh4-0 hPsWZB">
+                                          <div class="Box-sc-g0xbh4-0 gJICKO">
+                                            <div class="Box-sc-g0xbh4-0 iZJewz">
+                                              <nav data-testid="breadcrumbs" aria-labelledby="sticky-breadcrumb-heading"
+                                                id="sticky-breadcrumb" class="Box-sc-g0xbh4-0 kzRgrI">
+                                                <h2 class="Heading__StyledHeading-sc-1c1dgg0-0 cgQnMS sr-only"
+                                                  data-testid="screen-reader-heading" id="sticky-breadcrumb-heading">
+                                                  Breadcrumbs</h2>
+                                                <ol class="Box-sc-g0xbh4-0 cmAPIB">
+                                                  <li class="Box-sc-g0xbh4-0 jwXCBK"><a sx="[object Object]"
+                                                      data-testid="breadcrumbs-repo-link"
+                                                      class="Link__StyledLink-sc-14289xe-0 kGYPAT"
+                                                      href="/txtr/txtr.github.io/tree/main">txtr.github.io</a></li>
+                                                </ol>
+                                              </nav>
+                                              <div data-testid="breadcrumbs-filename" class="Box-sc-g0xbh4-0 jwXCBK">
+                                                <span aria-hidden="true" class="Text-sc-17v1xeu-0 kelpbL">/</span>
+                                                <h1 tabindex="-1" id="sticky-file-name-id"
+                                                  class="Heading__StyledHeading-sc-1c1dgg0-0 jAEDJk">resume.pdf</h1>
+                                              </div>
+                                            </div><button type="button" data-size="small"
+                                              class="types__StyledButton-sc-ws60qy-0 bpyMMx"><span
+                                                data-component="buttonContent" class="Box-sc-g0xbh4-0 kkrdEu"><span
+                                                  data-component="leadingVisual" class="Box-sc-g0xbh4-0 trpoQ"><svg
+                                                    aria-hidden="true" focusable="false" role="img"
+                                                    class="octicon octicon-arrow-up" viewBox="0 0 16 16" width="16"
+                                                    height="16" fill="currentColor"
+                                                    style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;">
+                                                    <path
+                                                      d="M3.47 7.78a.75.75 0 0 1 0-1.06l4.25-4.25a.75.75 0 0 1 1.06 0l4.25 4.25a.751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018L9 4.81v7.44a.75.75 0 0 1-1.5 0V4.81L4.53 7.78a.75.75 0 0 1-1.06 0Z">
+                                                    </path>
+                                                  </svg></span><span data-component="text">Top</span></span></button>
+                                          </div>
+                                        </div>
+                                        <div class="Box-sc-g0xbh4-0 bOUZZs">
+                                          <h2 class="Heading__StyledHeading-sc-1c1dgg0-0 cgQnMS sr-only"
+                                            data-testid="screen-reader-heading">File metadata and controls</h2>
+                                          <div class="Box-sc-g0xbh4-0 bfkNRF">
+                                            <div class="Box-sc-g0xbh4-0 fleZSW react-code-size-details-in-header">
+                                              <div class="Box-sc-g0xbh4-0 VKXbE text-mono"><span
+                                                  class="Text-sc-17v1xeu-0 gPDEWA">101 KB</span></div>
+                                            </div>
+                                          </div>
+                                          <div class="Box-sc-g0xbh4-0 iBylDf"><button hidden="" data-testid=""
+                                              data-hotkey="Control+Shift+."
+                                              data-hotkey-scope="read-only-cursor-text-area"></button><button hidden=""
+                                              data-hotkey="Control+Shift+."></button><button hidden="" data-testid=""
+                                              data-hotkey="Control+Shift+,"
+                                              data-hotkey-scope="read-only-cursor-text-area"></button><button hidden=""
+                                              data-hotkey="Control+Shift+,"></button>
+                                            <div class="Box-sc-g0xbh4-0 kSGBPx react-blob-header-edit-and-raw-actions">
+                                              <span role="tooltip" aria-label="Download raw file"
+                                                class="Tooltip__TooltipBase-sc-uha8qm-0 fCnxTL tooltipped-n"><button
+                                                  data-component="IconButton" aria-label="Download raw content"
+                                                  data-testid="download-raw-button" data-hotkey="Control+Shift+s"
+                                                  data-size="small" data-no-visuals="true"
+                                                  class="types__StyledButton-sc-ws60qy-0 iROAUy"><svg aria-hidden="true"
+                                                    focusable="false" role="img" class="octicon octicon-download"
+                                                    viewBox="0 0 16 16" width="16" height="16" fill="currentColor"
+                                                    style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;">
+                                                    <path
+                                                      d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z">
+                                                    </path>
+                                                    <path
+                                                      d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z">
+                                                    </path>
+                                                  </svg></button></span><button hidden=""
+                                                data-testid="download-raw-button-shortcut" data-hotkey="Control+Shift+s"
+                                                data-hotkey-scope="read-only-cursor-text-area"></button></div>
+                                            <div
+                                              class="Box-sc-g0xbh4-0 react-blob-header-edit-and-raw-actions-combined">
+                                              <button data-component="IconButton" aria-label="Edit and raw actions"
+                                                class="types__StyledButton-sc-ws60qy-0 dBUMnK js-blob-dropdown-click"
+                                                title="More file actions" data-testid="more-file-actions-button"
+                                                id=":r4:" aria-haspopup="true" tabindex="0" data-size="small"
+                                                data-no-visuals="true"><svg aria-hidden="true" focusable="false"
+                                                  role="img" class="octicon octicon-kebab-horizontal"
+                                                  viewBox="0 0 16 16" width="16" height="16" fill="currentColor"
+                                                  style="display: inline-block; user-select: none; vertical-align: text-bottom; overflow: visible;">
+                                                  <path
+                                                    d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z">
+                                                  </path>
+                                                </svg></button></div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="Box-sc-g0xbh4-0"></div>
+                                    </div>
+                                    <div class="Box-sc-g0xbh4-0 etfROT">
+                                      <section aria-labelledby="file-name-id" class="Box-sc-g0xbh4-0 cJzElx">
+                                        <div class="Box-sc-g0xbh4-0 civZtx">
+                                          <div data-hpc="true" data-host="https://viewscreen.githubusercontent.com"
+                                            data-type="pdf" class="Box-sc-g0xbh4-0 cRYnfF" style="height: 1325px;">
+                                            <iframe
+                                              src="https://viewscreen.githubusercontent.com/view/pdf?browser=chrome&amp;bypass_fastly=true&amp;color_mode=dark&amp;commit=5f8e62a3b3826fd56a7e4b666c3ed06156999de3&amp;device=unknown_device&amp;docs_host=https%3A%2F%2Fdocs.github.com&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f747874722f747874722e6769746875622e696f2f356638653632613362333832366664353661376534623636366333656430363135363939396465332f726573756d652e706466&amp;logged_in=true&amp;nwo=txtr%2Ftxtr.github.io&amp;path=resume.pdf&amp;platform=windows&amp;repository_id=412075346&amp;repository_type=Repository&amp;version=115#48bb678b-8f43-46af-85f8-9b1c362b82ad"
+                                              sandbox="allow-scripts allow-same-origin allow-top-navigation"
+                                              name="48bb678b-8f43-46af-85f8-9b1c362b82ad" title="File display"
+                                              class="Box-sc-g0xbh4-0 kRMcOk">Viewer requires iframe.</iframe></div>
+                                        </div>
+                                      </section>
+                                    </div>
+                                    <div class="Popover js-hovercard-content position-absolute" tabindex="0"
+                                      style="display: none; outline: none;">
+                                      <div
+                                        class="Popover-message Popover-message--bottom-left Popover-message--large Box color-shadow-large"
+                                        style="width: 360px;"></div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </main>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </react-app>
+          </turbo-frame>
+        </main>
+      </div>
     </div>
-
-    
-  
-
-
-
-
-</body></html>
+  </div>
+</body>
+</html>
