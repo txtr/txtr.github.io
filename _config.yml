@@ -3,10 +3,8 @@ plugins:
 - jekyll-remote-theme
 title: Shubham Prasad Pednekar
 logo: /assets/avatar.jpg
-description:
+description: >
   Resume.
   Curriculum Vaitae.
   Blog.
   LinkedIn.
-  Github.
-show_downloads: true
