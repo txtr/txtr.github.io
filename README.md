@@ -1,3 +1,2 @@
-# [TXTR](https://txtr.github.io)
-
-The Blog.
+# Shubham Prasad Pednekar
+[Link tree.](https://txtr.github.io)
