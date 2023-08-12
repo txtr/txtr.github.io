@@ -1,3 +1,3 @@
-# [https://txtr.github.io/](txtr.github.io)
+# [TXTR](https://txtr.github.io)
 
 The Blog.
