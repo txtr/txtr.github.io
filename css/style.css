@@ -249,5 +249,5 @@ textarea {
 
 @font-face {
   font-family: 'FiraCodeBold';
-  src: url('fonts/FiraCode-Bold.ttf') format('truetype');
+  src: url('/fonts/FiraCode-Bold.ttf') format('truetype');
 }
